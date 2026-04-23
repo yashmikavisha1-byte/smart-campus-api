@@ -5,7 +5,7 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@ApplicationPath("/")
+@ApplicationPath("/api/v1")
 public class SmartCampusApp extends Application {
 
     @Override
